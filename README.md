@@ -22,5 +22,3 @@ https://codelandia-desafio3-onepage.netlify.app/
 
 ![preview](assets/img/codelandia-desafio3-onepage.netlify.app_.png)
 
-
-
