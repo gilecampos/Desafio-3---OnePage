@@ -31,7 +31,6 @@ body {
 header {
     width: 100vw;
     height: auto;
-
     padding: 50px 0;
 
     background-color: var(--purplelight);
@@ -40,7 +39,6 @@ header {
 .header-container {
     width: 90%;
     height: 100%;
-
     margin: auto;
 
     display: flex;
@@ -49,16 +47,15 @@ header {
     align-items: center;
 }
 
-.header-conteudo {
+.header-content {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
 
     margin-bottom: 70px;
-
 }
 
-.header-conteudo h1 {
+.header-content h1 {
     font-family: var(--merri);
     font-size: 3.3rem;
     font-weight: bold;
@@ -67,7 +64,7 @@ header {
     margin-bottom: 10px;
 }
 
-.header-conteudo p {
+.header-content p {
     font-family: var(--lato);
     font-size: 1.9rem;
     font-weight: normal;
@@ -89,11 +86,8 @@ header {
 
 button {
     border: none;
-
     width: 110px;
-
     padding: 15px 0;
-
     border-radius: 10px;
 
     background-color: var(--purple);
@@ -111,17 +105,14 @@ button:hover {
 main {
     width: 100vw;
     height: auto;
+    padding: 30px 0;
 
     background-color:#F9F9F9;
-    ;
-
-    padding: 30px 0;
 }
 
 .container {
     width: 90%;
     height: 100%;
-
     margin: auto;
 
     display: flex;
@@ -179,12 +170,11 @@ main {
 .card-desc {
     height: 50%;
     padding: 20px;
-
-    background-color: #fff;
-
-    box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.445);
     border-bottom-left-radius: 5px;
     border-bottom-right-radius: 5px;
+
+    background-color: #fff;
+    box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.445);
 }
 
 .card-desc h1 {
@@ -206,16 +196,14 @@ main {
 footer {
     width: 100vw;
     height: auto;
+    padding: 50px 0;
 
     background-color: var(--purplelight);
-
-    padding: 50px 0;
 }
 
 .footer-container {
     width: 90%;
     height: 100%;
-
     margin: auto;
 
     display: flex;
@@ -223,10 +211,9 @@ footer {
     align-items: center;
 }
 
-.footer-contato {
+.footer-contact {
     width: 100%;
     
-
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -275,10 +262,6 @@ input {
 .button {
     width: 100%;
 }
-
-
-
-
 
 /* TABLET */
 
@@ -339,6 +322,7 @@ input {
 
 }
 
+/* DESKTOP */
 @media (min-width: 1200px) {
     html {
         font-size: 67%;
